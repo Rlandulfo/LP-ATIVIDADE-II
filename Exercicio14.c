@@ -16,7 +16,7 @@ int somaPares = 0;
 int somaImpares = 0;
 
     while (1) {
-        printf("Digite um numero inteiro (ou um numero negativo para encerrar): ");
+        printf("Digite um numero inteiro, ou digite um numero negativo para parar: ");
         scanf("%d", &numero);
 
         if (numero < 0) {
